@@ -1,0 +1,27 @@
+/* VARIABLES */ 
+:root{
+    /* COLORS */
+    --dark-blue-sky-color: hsl(221, 87%, 64%); 
+    --light-blue-sky-color: hsl(193, 100%, 88%); 
+    --sky-color: linear-gradient(var(--dark-blue-sky-color), var(--light-blue-sky-color));
+    --white-color : hsl(0, 0%, 100%); 
+}
+
+/* BASE */
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* BODY */
+body {
+    height: 100vh;
+    background: var(--sky-color);
+}
+
+/* CONTAINER */
+
+     /* BREAKPOINTS  */
+
